@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<h1 align="center">취미공유 플랫폼, 👨‍👩‍👧‍👦 여기로 Olleh?</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+  <img src="https://i.imgur.com/5thBiwU.png" alt="이미지 설명" width="600" height="300" />
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
+🙋‍ 참여 팀원
+-------------
+- BackEnd : [조찬영](https://github.com/NinjaYoung98), [조동혁](https://github.com/donizz), [박지영](https://github.com/jiyoung10), [이나래](http://github.com/naraeeee), [박규현](https://github.com/henryKyuhyun)
+- FrontEnd : [박규현](https://github.com/henryKyuhyun), [강다예](https://github.com/dayaekang)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📍 프로젝트 소개
+-------------
+- Olleh 는 서로의 취미를 공유할 수 있는 커뮤니티 서비스 플랫폼 입니다.
+- 프로젝트 컨셉 설계부터 기획, 서비스 개발 플로우를 경험하였습니다.
+- Front-end 와 Back-End 의 협업을 통해 소통의 중요성과 Rest Api 을 경험하였습니다.
+- Github, Notion, Slack, Discord 등 프로젝트 관리툴을 적극 활용하여 실무와 유사한 협업 프로세스를 사용하였습니다.
+- 프로젝트에 맞는 컨셉과 요구사항을 반영한 비지니스 로직 구현 Rest api서버 개발 프로젝트 입니다.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 서비스 기능
+-------------
+- 사용자는 자신이 관심 있는 취미를 공유하기 위해 커뮤니티를 생성하고, 채팅을 통해 서로의 취미에 대해 공유할 수 있습니다.
+- 자유 게시판을 통해 사용자의 의견들을 자유롭게 공유할 수 있습니다.
+- 마이 페이지를 통하여 본인이 작성한 게시물을 한눈에 볼 수 있습니다.
+- 네이버맵API 기반의 직관적인 커뮤니티 위치를 파악할 수 있습니다.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎯 프로젝트 기간
+------------
+2023.03.07 ~ 2023.06.15 (3m)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔧 Stacks
+-------------
+<div> 
+  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
+  <br>
+  
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=black">
+  <br>
+  
+  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
+  <br>
+  
+  <img src="https://img.shields.io/badge/reids-DC382D?style=for-the-badge&logo=redis&logoColor=black">
+  <img src="https://img.shields.io/badge/json web tokens-036CB5?style=for-the-badge&logo=json web tokens&logoColor=black">
+  <img src="https://img.shields.io/badge/webstorm-036CB5?style=for-the-badge&logo=webstorm&logoColor=black">
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  
+  <br>
+  
+  <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+  <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
+  <img src="https://img.shields.io/badge/spring security-6DB33F?style=for-the-badge&logo=spring security&logoColor=white">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
+  <br>
+  
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+  <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+  <img src="https://img.shields.io/badge/gitkraken-179287?style=for-the-badge&logo=gitkraken&logoColor=white">
+  <br>
+</div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+📈 Usecase 다이어그램
+-----------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![usecase4](https://github.com/Team-javaJobJob/OllehBoardProject/assets/126131788/93c45238-b8d2-49f2-b5a4-1d3caa1848e6)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📈 ER 다이어그램 
+-------------
 
-### Code Splitting
+![ollehERD4](https://github.com/Team-javaJobJob/OllehBoardProject/assets/126131788/cea51928-d372-4328-a5db-af4018e84d06)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+🛠 포트폴리오
+-------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<details>
+  <summary>이미지로 확인하기</summary>
+  프론트
+</details>
