@@ -20,7 +20,10 @@ import {
   Label,
   MapContainer,
   NickName,
+  OllehContainer,
+  OllehCtnAndChatBtn,
   TextArea,
+  DetailName,
 } from "../../components/Community/CommunityDetailStyle";
 import Map from "../../components/Map/Map";
 
@@ -115,7 +118,7 @@ export default function CommunityDetail() {
         <CommunityName>
           {isEditing ? (
             <div>
-              <Label>커뮤니티 이름:</Label>
+              <DetailName>커뮤니티 이름:</DetailName>
               <Input
                 name="communityName"
                 value={updatedData.communityName}
@@ -128,7 +131,7 @@ export default function CommunityDetail() {
         </CommunityName>
 
         <div>
-          <Label>관심사:</Label>
+          <DetailName>관심사:</DetailName>
           {isEditing ? (
             <Input
               name="interest"
@@ -140,7 +143,7 @@ export default function CommunityDetail() {
           )}
         </div>
         <InfoCommunity>
-          <Label>소개글:</Label>
+          <DetailName>소개글:</DetailName>
           {isEditing ? (
             <TextArea
               name="info"
@@ -152,7 +155,7 @@ export default function CommunityDetail() {
           )}
         </InfoCommunity>
         <div>
-          <Label>지역:</Label>
+          <DetailName>지역:</DetailName>
           {isEditing ? (
             <Input
               name="region"
@@ -170,15 +173,16 @@ export default function CommunityDetail() {
 
         <NickName>{nickname}</NickName>
       </ArticleDetail>
+      <OllehCtnAndChatBtn>
+        <Olleh communityId={id} ollehCount={ollehCount}></Olleh>
 
-      <Olleh communityId={id} ollehCount={ollehCount} />
+        <ChatBtn className="enter-chatroom-btn" onClick={enterChatRoom}>
+          💬
+        </ChatBtn>
+      </OllehCtnAndChatBtn>
       <MapContainer>
         <Map region={region} />
       </MapContainer>
-
-      <ChatBtn className="enter-chatroom-btn" onClick={enterChatRoom}>
-        채팅방 입장하기
-      </ChatBtn>
     </section>
   );
 }

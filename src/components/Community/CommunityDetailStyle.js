@@ -5,16 +5,12 @@ export const ArticleDetail = styled.article`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
-  font-size: 1rem;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
+  font-size: 2rem;
   margin: auto;
+  padding: 10px;
+  height: 80vh;
+  width: 50vw;
 `;
 
 export const InfoSection = styled.div`
@@ -25,11 +21,12 @@ export const InfoSection = styled.div`
 `;
 
 export const CommunityName = styled.h1`
-  margin: 1.5rem 0;
+  margin: 3rem;
   font-size: 1.5rem;
 `;
 
 export const InfoCommunity = styled.p`
+  margin: 0 2rem;
   font-weight: 700;
   font-size: 1.2rem;
   width: 80%;
@@ -37,19 +34,19 @@ export const InfoCommunity = styled.p`
 
 export const DateCommunity = styled.div``;
 export const NickName = styled.h3`
+  margin: 0 2rem;
   font-size: 2rem;
   color: #112;
 `;
 
 export const ChatBtn = styled.button`
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
   border: none;
   border-radius: 50px;
-  background-color: #a86eea;
-  width: 18em;
-  height: 3em;
   color: white;
-  font-size: 1.6rem;
-  margin-bottom: 1.5rem;
+  font-size: 5rem;
 `;
 
 export const DeleteButton = styled.button`
@@ -71,12 +68,14 @@ export const EditButton = styled.button`
 `;
 
 export const MapContainer = styled.div`
-  width: 100%;
+  display: block;
+  width: 80%;
   height: 300px;
-  margin-bottom: 1.5rem;
+  margin: auto;
 `;
 
 export const InputContainer = styled.div`
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -84,15 +83,16 @@ export const InputContainer = styled.div`
 
 export const Label = styled.label`
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
+  margin: 2rem;
 `;
 
 export const Input = styled.input`
   padding: 0.5rem;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
-  margin-bottom: 1rem;
+  margin: 2rem;
 `;
 
 export const TextArea = styled.textarea`
@@ -100,4 +100,14 @@ export const TextArea = styled.textarea`
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   margin-bottom: 1rem;
+  margin: 2rem;
+`;
+
+export const OllehCtnAndChatBtn = styled.div`
+  display: flex;
+`;
+
+export const DetailName = styled.label`
+  font-size: 1.5rem;
+  font-weight: 300;
 `;
